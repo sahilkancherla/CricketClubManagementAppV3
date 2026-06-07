@@ -528,7 +528,7 @@ clubRoutes.post(
         const { data: prof, error: profErr } = await supabase
           .from('profiles')
           .select('id, is_placeholder')
-          .ilike('email', targetEmail)
+          .eq('email', targetEmail)
           .order('is_placeholder', { ascending: true })
           .limit(1)
           .maybeSingle();

@@ -6,6 +6,7 @@ import { apiFetch } from "@/lib/api";
 import { BackButton } from "@/components/BackButton";
 import { Modal, ModalActions } from "@/components/Modal";
 import { MemberPicker } from "@/components/MemberPicker";
+import { AssignmentList } from "@/components/AssignmentList";
 import { formatCurrency, formatDate, dollarsToCents, todayIso } from "@/lib/utils";
 import { EXPENSE_CATEGORY_LABELS } from "@cricket/shared";
 
@@ -736,42 +737,32 @@ function ExpenseRow({
                 Not split across any members yet. Use “Edit split” to divide it.
               </p>
             ) : (
-              <ul className="flex flex-col gap-1.5">
-                {assignments.map((a) => (
-                  <li
-                    key={a.id ?? a.user_id}
-                    className="flex items-center gap-3 rounded-md border border-[var(--color-rule)] bg-[var(--color-bg-card)] px-3 py-2"
-                  >
-                    <span className="flex-1 min-w-0 text-[13.5px] text-[var(--color-ink)] truncate">
-                      {memberName(a)}
-                    </span>
-                    <span className="text-[13px] font-semibold tabular-nums text-[var(--color-ink)] shrink-0">
-                      {formatCurrency(a.share_cents)}
-                    </span>
-                    <StatusBadge status={a.status} />
-                    <div className="flex items-center gap-1 shrink-0">
-                      {a.status !== "paid" && (
-                        <button
-                          type="button"
-                          onClick={() => setStatus(a.user_id, "paid")}
-                          className="h-7 px-2.5 rounded-md text-[12px] font-medium text-[var(--color-accent-ink)] bg-[var(--color-accent-soft)] hover:opacity-90"
-                        >
-                          Mark paid
-                        </button>
-                      )}
-                      {a.status !== "pending" && (
-                        <button
-                          type="button"
-                          onClick={() => setStatus(a.user_id, "pending")}
-                          className="h-7 px-2.5 rounded-md text-[12px] font-medium text-[var(--color-ink-soft)] hover:bg-[var(--color-bg-soft)]"
-                        >
-                          Mark pending
-                        </button>
-                      )}
-                    </div>
-                  </li>
-                ))}
-              </ul>
+              <AssignmentList
+                items={assignments}
+                renderName={memberName}
+                showShare
+                formatShare={(a) => formatCurrency(a.share_cents)}
+                renderStatus={(a) => <StatusBadge status={a.status} />}
+                renderAction={(a) =>
+                  a.status === "paid" ? (
+                    <button
+                      type="button"
+                      onClick={() => setStatus(a.user_id, "pending")}
+                      className="h-7 px-2.5 rounded-md text-[12px] font-medium text-[var(--color-ink-soft)] hover:bg-[var(--color-bg-soft)]"
+                    >
+                      Mark unpaid
+                    </button>
+                  ) : (
+                    <button
+                      type="button"
+                      onClick={() => setStatus(a.user_id, "paid")}
+                      className="h-7 px-2.5 rounded-md text-[12px] font-medium text-[var(--color-accent-ink)] bg-[var(--color-accent-soft)] hover:opacity-90"
+                    >
+                      Mark paid
+                    </button>
+                  )
+                }
+              />
             )}
           </td>
         </tr>
