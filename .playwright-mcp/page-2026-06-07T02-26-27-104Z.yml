@@ -1,0 +1,33 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e34]
+  - generic [ref=e35]:
+    - banner [ref=e36]:
+      - generic [ref=e37]:
+        - link "Q QuickCric" [ref=e38] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e40]: Q
+          - generic [ref=e42]: QuickCric
+        - button "Account menu" [ref=e45] [cursor=pointer]:
+          - generic [ref=e46]: D
+          - img [ref=e47]
+    - main [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - paragraph [ref=e53]: Overview
+            - heading "Your clubs" [level=1] [ref=e54]
+            - paragraph [ref=e55]: Manage members, seasons, teams, fixtures, expenses, and payments across every club you're part of.
+          - generic [ref=e56]:
+            - button "Join club" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - text: Join club
+            - link "New club" [ref=e61] [cursor=pointer]:
+              - /url: /club/new
+              - img [ref=e62]
+              - text: New club
+        - generic [ref=e63]:
+          - heading "All clubs" [level=2] [ref=e65]
+          - list [ref=e66]:
+            - listitem [ref=e67]
+            - listitem [ref=e76]
+            - listitem [ref=e85]

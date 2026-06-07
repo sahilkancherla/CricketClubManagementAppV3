@@ -48,8 +48,10 @@ export default function TeamDetailPage({
 
   async function loadMembers() {
     try {
+      // /members returns a paginated object ({ members, total, ... }); older
+      // builds returned a plain array. Tolerate both so .filter never throws.
       const data = await apiFetch(`/clubs/${clubId}/members`);
-      setClubMembers(data || []);
+      setClubMembers(Array.isArray(data) ? data : data?.members || []);
     } catch {
       /* not admin/captain — ignore */
     }

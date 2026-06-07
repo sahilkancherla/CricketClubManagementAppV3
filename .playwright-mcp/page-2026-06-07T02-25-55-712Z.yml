@@ -1,0 +1,29 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Back to QuickCric" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e5]
+      - text: Back to QuickCric
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]: Q
+        - generic [ref=e11]: QuickCric
+      - heading "Sign in to your club" [level=2] [ref=e12]
+      - paragraph [ref=e13]: Use the email associated with your account.
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e17]: Email
+          - textbox "Email" [ref=e18]:
+            - /placeholder: you@club.com
+        - generic [ref=e19]:
+          - generic [ref=e21]: Password
+          - textbox "Password" [ref=e22]:
+            - /placeholder: ••••••••
+        - button "Sign in" [ref=e23] [cursor=pointer]:
+          - text: Sign in
+          - img [ref=e24]
+      - paragraph [ref=e27]:
+        - text: New to QuickCric?
+        - link "Create an account" [ref=e28] [cursor=pointer]:
+          - /url: /register
+  - alert [ref=e29]
