@@ -1,0 +1,121 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "C CricketClub" [ref=e5] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e7]: C
+          - generic [ref=e9]: CricketClub
+        - button "Account menu" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: B
+          - img [ref=e14]
+    - main [ref=e16]:
+      - generic [ref=e43]:
+        - complementary [ref=e44]:
+          - generic [ref=e45]:
+            - link "All clubs" [ref=e46] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e47]
+              - text: All clubs
+            - generic [ref=e49]:
+              - generic [ref=e51]: B
+              - generic [ref=e52]:
+                - paragraph [ref=e53]: Browser CC
+                - paragraph [ref=e54]: admin
+            - navigation [ref=e55]:
+              - link "Overview" [ref=e56] [cursor=pointer]:
+                - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9
+                - img [ref=e57]
+                - text: Overview
+              - link "Members" [ref=e62] [cursor=pointer]:
+                - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/members
+                - img [ref=e63]
+                - text: Members
+              - link "Seasons & Teams" [ref=e68] [cursor=pointer]:
+                - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/teams
+                - img [ref=e69]
+                - text: Seasons & Teams
+              - link "Expenses" [ref=e71] [cursor=pointer]:
+                - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/expenses
+                - img [ref=e72]
+                - text: Expenses
+              - link "Payments" [ref=e75] [cursor=pointer]:
+                - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/payments
+                - img [ref=e76]
+                - text: Payments
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - paragraph [ref=e82]: Overview
+            - heading "Browser CC" [level=1] [ref=e83]
+            - paragraph [ref=e84]: You're admin here. Here's how things stand.
+          - generic [ref=e85]:
+            - link "1 Members 1 active" [ref=e86] [cursor=pointer]:
+              - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/members
+              - generic [ref=e87]:
+                - img [ref=e89]
+                - img [ref=e94]
+              - generic [ref=e97]:
+                - paragraph [ref=e98]: "1"
+                - paragraph [ref=e99]: Members
+                - paragraph [ref=e100]: 1 active
+            - link "$0.00 Pending dues $0.00 collected" [ref=e101] [cursor=pointer]:
+              - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/payments
+              - generic [ref=e102]:
+                - img [ref=e104]
+                - img [ref=e107]
+              - generic [ref=e110]:
+                - paragraph [ref=e111]: $0.00
+                - paragraph [ref=e112]: Pending dues
+                - paragraph [ref=e113]: $0.00 collected
+            - link "$0.00 Expenses Total spending" [ref=e114] [cursor=pointer]:
+              - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/expenses
+              - generic [ref=e115]:
+                - img [ref=e117]
+                - img [ref=e120]
+              - generic [ref=e123]:
+                - paragraph [ref=e124]: $0.00
+                - paragraph [ref=e125]: Expenses
+                - paragraph [ref=e126]: Total spending
+            - link "0 Teams 0 seasons" [ref=e127] [cursor=pointer]:
+              - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/teams
+              - generic [ref=e128]:
+                - img [ref=e130]
+                - img [ref=e132]
+              - generic [ref=e135]:
+                - paragraph [ref=e136]: "0"
+                - paragraph [ref=e137]: Teams
+                - paragraph [ref=e138]: 0 seasons
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - generic [ref=e141]:
+                - heading "Outstanding dues" [level=2] [ref=e142]:
+                  - img [ref=e143]
+                  - text: Outstanding dues
+                - link "View all" [ref=e146] [cursor=pointer]:
+                  - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/payments
+              - generic [ref=e147]:
+                - img [ref=e148]
+                - paragraph [ref=e151]: Nothing outstanding. All dues are settled.
+            - generic [ref=e152]:
+              - generic [ref=e153]:
+                - heading "Roster" [level=2] [ref=e154]:
+                  - img [ref=e155]
+                  - text: Roster
+                - link "Manage" [ref=e160] [cursor=pointer]:
+                  - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/members
+              - generic [ref=e161]:
+                - generic [ref=e162]:
+                  - term [ref=e163]: Active members
+                  - definition [ref=e164]: "1"
+                - generic [ref=e165]:
+                  - term [ref=e166]: Admins
+                  - definition [ref=e167]: "1"
+                - generic [ref=e168]:
+                  - term [ref=e169]: Captains
+                  - definition [ref=e170]: "0"
+                - generic [ref=e171]:
+                  - term [ref=e172]: Players
+                  - definition [ref=e173]: "0"
+  - button "Open Next.js Dev Tools" [ref=e38] [cursor=pointer]:
+    - img [ref=e39]
+  - alert [ref=e42]

@@ -1,0 +1,138 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "C CricketClub" [ref=e5] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e7]: C
+          - generic [ref=e9]: CricketClub
+        - button "Account menu" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: F
+          - img [ref=e14]
+    - main [ref=e16]:
+      - generic [ref=e17]:
+        - complementary [ref=e18]:
+          - generic [ref=e19]:
+            - link "All clubs" [ref=e20] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e21]
+              - text: All clubs
+            - generic [ref=e23]:
+              - generic [ref=e25]: T
+              - generic [ref=e26]:
+                - paragraph [ref=e27]: Tab Test CC
+                - paragraph [ref=e52]: admin
+            - navigation [ref=e28]:
+              - link "Overview" [ref=e29] [cursor=pointer]:
+                - /url: /club/2d65e421-466b-4e1b-bd7a-a1aa76f372fa
+                - img [ref=e30]
+                - text: Overview
+              - link "Members" [ref=e53] [cursor=pointer]:
+                - /url: /club/2d65e421-466b-4e1b-bd7a-a1aa76f372fa/members
+                - img [ref=e54]
+                - text: Members
+              - link "Seasons & Teams" [ref=e35] [cursor=pointer]:
+                - /url: /club/2d65e421-466b-4e1b-bd7a-a1aa76f372fa/teams
+                - img [ref=e36]
+                - text: Seasons & Teams
+              - link "Expenses" [ref=e59] [cursor=pointer]:
+                - /url: /club/2d65e421-466b-4e1b-bd7a-a1aa76f372fa/expenses
+                - img [ref=e60]
+                - text: Expenses
+              - link "Payments" [ref=e63] [cursor=pointer]:
+                - /url: /club/2d65e421-466b-4e1b-bd7a-a1aa76f372fa/payments
+                - img [ref=e64]
+                - text: Payments
+        - generic [ref=e39]:
+          - generic [ref=e67]:
+            - link "Back to members" [ref=e68] [cursor=pointer]:
+              - /url: /club/2d65e421-466b-4e1b-bd7a-a1aa76f372fa/members
+              - img [ref=e69]
+              - generic [ref=e71]: Back to members
+            - generic [ref=e72]:
+              - generic [ref=e74]: TP
+              - generic [ref=e75]:
+                - generic [ref=e76]:
+                  - heading "Tabby Player" [level=1] [ref=e77]
+                  - generic [ref=e78]:
+                    - img [ref=e79]
+                    - text: Off-app
+                - generic [ref=e83]:
+                  - img [ref=e84]
+                  - text: tabby@example.com
+          - navigation [ref=e88]:
+            - button "Overview" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - text: Overview
+            - button "Profile & details" [active] [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - text: Profile & details
+            - button "Payments" [ref=e99] [cursor=pointer]:
+              - img [ref=e100]
+              - text: Payments
+            - button "Expenses" [ref=e103] [cursor=pointer]:
+              - img [ref=e104]
+              - text: Expenses
+          - generic [ref=e174]:
+            - generic [ref=e175]:
+              - img [ref=e177]
+              - heading "Profile & details" [level=2] [ref=e180]
+            - generic [ref=e182]:
+              - generic [ref=e183]:
+                - generic [ref=e184]:
+                  - generic [ref=e185]: First name
+                  - textbox [ref=e186]: Tabby
+                - generic [ref=e187]:
+                  - generic [ref=e188]: Last name
+                  - textbox [ref=e189]: Player
+                - generic [ref=e190]:
+                  - generic [ref=e191]: Email
+                  - textbox "—" [ref=e192]: tabby@example.com
+                - generic [ref=e193]:
+                  - generic [ref=e194]: Phone
+                  - textbox "—" [ref=e195]
+                - generic [ref=e196]:
+                  - generic [ref=e197]: PayPal email
+                  - textbox "—" [ref=e198]
+                - generic [ref=e199]:
+                  - generic [ref=e200]: Join date
+                  - textbox [ref=e201]: 2026-06-06
+              - generic [ref=e202]:
+                - generic [ref=e203]: Roles
+                - generic [ref=e204]:
+                  - button "+ admin" [ref=e205] [cursor=pointer]
+                  - button "+ captain" [ref=e206] [cursor=pointer]
+                  - button "✓ player" [pressed] [ref=e207] [cursor=pointer]
+              - generic [ref=e209]:
+                - generic [ref=e210]: Status
+                - combobox [ref=e211]:
+                  - option "Active" [selected]
+                  - option "Inactive"
+              - generic [ref=e212]:
+                - generic [ref=e213]:
+                  - generic [ref=e214]: Player type
+                  - combobox [ref=e215]:
+                    - option "—"
+                    - option "Batter"
+                    - option "Bowler"
+                    - option "All-rounder" [selected]
+                - generic [ref=e216]:
+                  - generic [ref=e217]: Batting hand
+                  - combobox [ref=e218]:
+                    - option "—" [selected]
+                    - option "Left-handed"
+                    - option "Right-handed"
+                - generic [ref=e219]:
+                  - generic [ref=e220]: Bowling type
+                  - combobox [ref=e221]:
+                    - option "—" [selected]
+                    - option "Off-spin"
+                    - option "Leg-spin"
+                    - option "Pace"
+              - generic [ref=e222]:
+                - generic [ref=e223]: Notes (optional)
+                - textbox "Internal notes about this member…" [ref=e224]
+              - button "Save changes" [ref=e226] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e47] [cursor=pointer]:
+    - img [ref=e48]
+  - alert [ref=e51]

@@ -1,0 +1,40 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Back to CricketClub" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e5]
+      - text: Back to CricketClub
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]: C
+        - generic [ref=e11]: CricketClub
+      - heading "Create your account" [level=2] [ref=e12]
+      - paragraph [ref=e13]: Set up your club in minutes.
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - generic [ref=e17]: First name
+            - textbox "First name" [ref=e18]:
+              - /placeholder: Virat
+          - generic [ref=e19]:
+            - generic [ref=e20]: Last name
+            - textbox "Last name" [ref=e21]:
+              - /placeholder: Kohli
+        - generic [ref=e22]:
+          - generic [ref=e23]: Email
+          - textbox "Email" [ref=e24]:
+            - /placeholder: you@club.com
+        - generic [ref=e25]:
+          - generic [ref=e26]: Password
+          - textbox "Password" [ref=e27]:
+            - /placeholder: At least 8 characters
+        - button "Create account" [ref=e28] [cursor=pointer]:
+          - text: Create account
+          - img [ref=e29]
+      - paragraph [ref=e32]:
+        - text: Already have an account?
+        - link "Sign in" [ref=e33] [cursor=pointer]:
+          - /url: /login
+  - button "Open Next.js Dev Tools" [ref=e39] [cursor=pointer]:
+    - img [ref=e40]
+  - alert [ref=e43]

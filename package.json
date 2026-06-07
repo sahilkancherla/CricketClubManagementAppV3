@@ -1,0 +1,31 @@
+{
+  "name": "cricketclub",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "overrides": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "nativewind": {
+      "tailwindcss": "^3.4.17"
+    },
+    "react-native-css-interop": {
+      "tailwindcss": "^3.4.17"
+    }
+  },
+  "scripts": {
+    "dev:server": "npm run dev -w @cricket/server",
+    "dev:web": "npm run dev -w @cricket/web",
+    "dev:mobile": "npm run dev -w @cricket/mobile",
+    "build:shared": "npm run build -w @cricket/shared",
+    "build:server": "npm run build -w @cricket/server",
+    "build:web": "npm run build -w @cricket/web",
+    "build": "npm run build:shared && npm run build:server && npm run build:web"
+  }
+}

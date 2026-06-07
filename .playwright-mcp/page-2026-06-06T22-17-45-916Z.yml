@@ -1,0 +1,81 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "C CricketClub" [ref=e5] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e7]: C
+          - generic [ref=e9]: CricketClub
+        - button "Account menu" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: P
+          - img [ref=e14]
+    - main [ref=e16]:
+      - generic [ref=e17]:
+        - complementary [ref=e18]:
+          - generic [ref=e19]:
+            - link "All clubs" [ref=e20] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e21]
+              - text: All clubs
+            - generic [ref=e23]:
+              - generic [ref=e25]: P
+              - generic [ref=e26]:
+                - paragraph [ref=e27]: Picker CC
+                - paragraph [ref=e131]: admin
+            - navigation [ref=e28]:
+              - link "Overview" [ref=e29] [cursor=pointer]:
+                - /url: /club/c1de2342-a1f5-4279-b395-50c6aef03c54
+                - img [ref=e30]
+                - text: Overview
+              - link "Members" [ref=e132] [cursor=pointer]:
+                - /url: /club/c1de2342-a1f5-4279-b395-50c6aef03c54/members
+                - img [ref=e133]
+                - text: Members
+              - link "Seasons & Teams" [ref=e35] [cursor=pointer]:
+                - /url: /club/c1de2342-a1f5-4279-b395-50c6aef03c54/teams
+                - img [ref=e36]
+                - text: Seasons & Teams
+              - link "Expenses" [ref=e138] [cursor=pointer]:
+                - /url: /club/c1de2342-a1f5-4279-b395-50c6aef03c54/expenses
+                - img [ref=e139]
+                - text: Expenses
+              - link "Payments" [ref=e142] [cursor=pointer]:
+                - /url: /club/c1de2342-a1f5-4279-b395-50c6aef03c54/payments
+                - img [ref=e143]
+                - text: Payments
+        - generic [ref=e39]:
+          - generic [ref=e52]:
+            - link "Back to members" [ref=e53] [cursor=pointer]:
+              - /url: /club/c1de2342-a1f5-4279-b395-50c6aef03c54/members
+              - img [ref=e54]
+              - generic [ref=e56]: Back to members
+            - generic [ref=e57]:
+              - generic [ref=e59]: AP
+              - generic [ref=e61]:
+                - heading "Aarav P" [level=1] [ref=e62]
+                - generic [ref=e63]:
+                  - img [ref=e64]
+                  - text: Off-app
+          - navigation [ref=e68]:
+            - button "Overview" [ref=e69] [cursor=pointer]:
+              - img [ref=e70]
+              - text: Overview
+            - button "Profile & details" [ref=e75] [cursor=pointer]:
+              - img [ref=e76]
+              - text: Profile & details
+            - button "Payments" [ref=e79] [cursor=pointer]:
+              - img [ref=e80]
+              - text: Payments
+            - button "Expenses" [active] [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - text: Expenses
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]: Net charge test
+              - generic [ref=e151]: Other · Sat, Jun 6, 2026
+            - generic [ref=e152]:
+              - generic [ref=e153]: pending
+              - generic [ref=e154]: $100.00
+  - button "Open Next.js Dev Tools" [ref=e47] [cursor=pointer]:
+    - img [ref=e48]
+  - alert [ref=e51]

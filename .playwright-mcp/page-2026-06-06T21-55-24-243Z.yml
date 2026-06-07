@@ -1,0 +1,112 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "C CricketClub" [ref=e5] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e7]: C
+          - generic [ref=e9]: CricketClub
+        - button "Account menu" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: F
+          - img [ref=e14]
+    - main [ref=e16]:
+      - generic [ref=e17]:
+        - complementary [ref=e18]:
+          - generic [ref=e19]:
+            - link "All clubs" [ref=e20] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e21]
+              - text: All clubs
+            - generic [ref=e23]:
+              - generic [ref=e25]: T
+              - generic [ref=e26]:
+                - paragraph [ref=e27]: Tab Test CC
+                - paragraph [ref=e104]: admin
+            - navigation [ref=e28]:
+              - link "Overview" [ref=e29] [cursor=pointer]:
+                - /url: /club/2d65e421-466b-4e1b-bd7a-a1aa76f372fa
+                - img [ref=e30]
+                - text: Overview
+              - link "Members" [ref=e105] [cursor=pointer]:
+                - /url: /club/2d65e421-466b-4e1b-bd7a-a1aa76f372fa/members
+                - img [ref=e106]
+                - text: Members
+              - link "Seasons & Teams" [ref=e35] [cursor=pointer]:
+                - /url: /club/2d65e421-466b-4e1b-bd7a-a1aa76f372fa/teams
+                - img [ref=e36]
+                - text: Seasons & Teams
+              - link "Expenses" [ref=e111] [cursor=pointer]:
+                - /url: /club/2d65e421-466b-4e1b-bd7a-a1aa76f372fa/expenses
+                - img [ref=e112]
+                - text: Expenses
+              - link "Payments" [ref=e115] [cursor=pointer]:
+                - /url: /club/2d65e421-466b-4e1b-bd7a-a1aa76f372fa/payments
+                - img [ref=e116]
+                - text: Payments
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - link "Club" [ref=e41] [cursor=pointer]:
+              - /url: /club/2d65e421-466b-4e1b-bd7a-a1aa76f372fa
+              - img [ref=e42]
+              - generic [ref=e44]: Club
+            - generic [ref=e45]:
+              - generic [ref=e46]:
+                - paragraph [ref=e47]: Ledger
+                - heading "Expenses" [level=1] [ref=e48]
+              - button "Add expense" [ref=e49] [cursor=pointer]:
+                - img [ref=e50]
+                - text: Add expense
+          - generic [ref=e51]:
+            - paragraph [ref=e52]: Total · all expenses
+            - paragraph [ref=e53]: $120.00
+          - generic [ref=e54]:
+            - generic [ref=e55]: Season
+            - combobox "Season" [ref=e56]:
+              - option "All seasons" [selected]
+              - option "General (no season)"
+          - table [ref=e74]:
+            - rowgroup [ref=e75]:
+              - row "Expense Date Paid by Split Amount" [ref=e76]:
+                - columnheader "Expense" [ref=e77]
+                - columnheader "Date" [ref=e78]
+                - columnheader "Paid by" [ref=e79]
+                - columnheader "Split" [ref=e80]
+                - columnheader "Amount" [ref=e81]
+                - columnheader [ref=e82]
+            - rowgroup [ref=e83]:
+              - row "Ground booking Ground booking General Sat, Jun 6, 2026 Fix Verify 1/2 $120.00 Delete expense" [ref=e84] [cursor=pointer]:
+                - cell "Ground booking Ground booking General" [ref=e85]:
+                  - generic [ref=e86]:
+                    - img [ref=e120]
+                    - generic [ref=e91]:
+                      - generic [ref=e92]: Ground booking
+                      - generic [ref=e93]: Ground booking
+                      - generic [ref=e94]: General
+                - cell "Sat, Jun 6, 2026" [ref=e95]
+                - cell "Fix Verify" [ref=e96]
+                - cell "1/2" [ref=e97]
+                - cell "$120.00" [ref=e98]
+                - cell "Delete expense" [ref=e99]:
+                  - button "Delete expense" [ref=e100]:
+                    - img [ref=e101]
+              - row "Split Edit split Fix Verify $60.00 paid Mark pending Tabby Player $60.00 pending Mark paid" [ref=e122]:
+                - cell "Split Edit split Fix Verify $60.00 paid Mark pending Tabby Player $60.00 pending Mark paid" [ref=e123]:
+                  - generic [ref=e124]:
+                    - generic [ref=e125]: Split
+                    - button "Edit split" [ref=e126] [cursor=pointer]:
+                      - img [ref=e127]
+                      - text: Edit split
+                  - list [ref=e130]:
+                    - listitem [ref=e131]:
+                      - generic [ref=e132]: Fix Verify
+                      - generic [ref=e133]: $60.00
+                      - generic [ref=e134]: paid
+                      - button "Mark pending" [ref=e136] [cursor=pointer]
+                    - listitem [ref=e137]:
+                      - generic [ref=e138]: Tabby Player
+                      - generic [ref=e139]: $60.00
+                      - generic [ref=e140]: pending
+                      - button "Mark paid" [ref=e142] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e69] [cursor=pointer]:
+    - img [ref=e70]
+  - alert [ref=e73]

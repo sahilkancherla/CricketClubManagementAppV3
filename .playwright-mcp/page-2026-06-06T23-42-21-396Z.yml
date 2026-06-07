@@ -1,0 +1,35 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "Q QuickCric" [ref=e5] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e7]: Q
+          - generic [ref=e9]: QuickCric
+        - button "Account menu" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: C
+          - img [ref=e14]
+    - main [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - paragraph [ref=e20]: Overview
+            - heading "Your clubs" [level=1] [ref=e21]
+            - paragraph [ref=e22]: Manage members, seasons, teams, fixtures, expenses, and payments across every club you're part of.
+          - generic [ref=e23]:
+            - button "Join club" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - text: Join club
+            - link "New club" [ref=e28] [cursor=pointer]:
+              - /url: /club/new
+              - img [ref=e29]
+              - text: New club
+        - generic [ref=e30]:
+          - heading "All clubs" [level=2] [ref=e32]
+          - list [ref=e33]:
+            - listitem [ref=e34]
+            - listitem [ref=e43]
+            - listitem [ref=e52]
+  - button "Open Next.js Dev Tools" [ref=e66] [cursor=pointer]:
+    - img [ref=e67]
+  - alert [ref=e70]

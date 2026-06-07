@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e39] [cursor=pointer]:
+    - img [ref=e40]
+  - alert [ref=e43]
+  - generic [ref=e44]:
+    - banner [ref=e45]:
+      - generic [ref=e46]:
+        - link "C CricketClub" [ref=e47] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e49]: C
+          - generic [ref=e51]: CricketClub
+        - button "Account menu" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: P
+          - img [ref=e56]
+    - main [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - paragraph [ref=e62]: Overview
+            - heading "Your clubs" [level=1] [ref=e63]
+            - paragraph [ref=e64]: Manage members, seasons, teams, fixtures, expenses, and payments across every club you're part of.
+          - generic [ref=e65]:
+            - button "Join club" [ref=e66] [cursor=pointer]:
+              - img [ref=e67]
+              - text: Join club
+            - link "New club" [ref=e70] [cursor=pointer]:
+              - /url: /club/new
+              - img [ref=e71]
+              - text: New club
+        - generic [ref=e72]:
+          - heading "All clubs" [level=2] [ref=e74]
+          - generic [ref=e76]:
+            - img [ref=e78]
+            - heading "No clubs yet" [level=3] [ref=e84]
+            - paragraph [ref=e85]: Create your first club to start managing members, teams, and fixtures.
+            - link "Create club" [ref=e86] [cursor=pointer]:
+              - /url: /club/new
+              - img [ref=e87]
+              - text: Create club

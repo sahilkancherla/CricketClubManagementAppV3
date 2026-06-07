@@ -1,0 +1,112 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "C CricketClub" [ref=e5] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e7]: C
+          - generic [ref=e9]: CricketClub
+        - button "Account menu" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: B
+          - img [ref=e14]
+    - main [ref=e16]:
+      - generic [ref=e17]:
+        - complementary [ref=e18]:
+          - generic [ref=e19]:
+            - link "All clubs" [ref=e20] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e21]
+              - text: All clubs
+            - generic [ref=e23]:
+              - generic [ref=e25]: B
+              - generic [ref=e26]:
+                - paragraph [ref=e27]: Browser CC
+                - paragraph [ref=e51]: admin
+            - navigation [ref=e28]:
+              - link "Overview" [ref=e29] [cursor=pointer]:
+                - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9
+                - img [ref=e30]
+                - text: Overview
+              - link "Members" [ref=e52] [cursor=pointer]:
+                - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/members
+                - img [ref=e53]
+                - text: Members
+              - link "Seasons & Teams" [ref=e35] [cursor=pointer]:
+                - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/teams
+                - img [ref=e36]
+                - text: Seasons & Teams
+              - link "Expenses" [ref=e58] [cursor=pointer]:
+                - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/expenses
+                - img [ref=e59]
+                - text: Expenses
+              - link "Payments" [ref=e62] [cursor=pointer]:
+                - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/payments
+                - img [ref=e63]
+                - text: Payments
+        - generic [ref=e39]:
+          - generic [ref=e66]:
+            - link "Back to club" [ref=e67] [cursor=pointer]:
+              - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9
+              - img [ref=e68]
+              - generic [ref=e70]: Back to club
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - heading "Members" [level=1] [ref=e73]
+                - paragraph [ref=e74]: Manage roles, status, and player details.
+              - button "Add member" [ref=e75] [cursor=pointer]:
+                - img [ref=e76]
+                - text: Add member
+          - generic [ref=e77]:
+            - img [ref=e78]
+            - textbox "Search by name or email…" [ref=e81]
+          - table [ref=e83]:
+            - rowgroup [ref=e84]:
+              - row "Name Email Roles Status Type Joined" [ref=e85]:
+                - columnheader "Name" [ref=e86]
+                - columnheader "Email" [ref=e87]
+                - columnheader "Roles" [ref=e88]
+                - columnheader "Status" [ref=e89]
+                - columnheader "Type" [ref=e90]
+                - columnheader "Joined" [ref=e91]
+            - rowgroup [ref=e92]:
+              - row "TC Test Captain browsertest@example.com admin Active — Sat, Jun 6, 2026" [ref=e93]:
+                - cell "TC Test Captain" [ref=e94]:
+                  - link "TC Test Captain" [ref=e95] [cursor=pointer]:
+                    - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/members/b88a61db-d29d-4e9f-971a-1f0265dd5365
+                    - generic [ref=e97]: TC
+                    - generic [ref=e100]: Test Captain
+                - cell "browsertest@example.com" [ref=e101]
+                - cell "admin" [ref=e102]:
+                  - generic [ref=e104]: admin
+                - cell "Active" [ref=e105]:
+                  - generic [ref=e106]: Active
+                - cell "—" [ref=e108]
+                - cell "Sat, Jun 6, 2026" [ref=e109]
+              - row "R Ravi Off-app — player Active — Sat, Jun 6, 2026" [ref=e164]:
+                - cell "R Ravi Off-app" [ref=e165]:
+                  - link "R Ravi Off-app" [ref=e166] [cursor=pointer]:
+                    - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/members/3279802e-9c13-48aa-a594-4cd97cbe5f3b
+                    - generic [ref=e168]: R
+                    - generic [ref=e170]:
+                      - generic [ref=e171]: Ravi
+                      - generic [ref=e172]:
+                        - img [ref=e173]
+                        - text: Off-app
+                - cell "—" [ref=e176]
+                - cell "player" [ref=e177]:
+                  - generic [ref=e179]: player
+                - cell "Active" [ref=e180]:
+                  - generic [ref=e181]: Active
+                - cell "—" [ref=e183]
+                - cell "Sat, Jun 6, 2026" [ref=e184]
+          - generic [ref=e110]:
+            - generic [ref=e111]: 1–2 of 2
+            - generic [ref=e112]:
+              - button [disabled] [ref=e113]:
+                - img [ref=e114]
+              - generic [ref=e116]: Page 1 / 1
+              - button [disabled] [ref=e117]:
+                - img [ref=e118]
+  - button "Open Next.js Dev Tools" [ref=e47] [cursor=pointer]:
+    - img [ref=e48]
+  - alert [ref=e120]

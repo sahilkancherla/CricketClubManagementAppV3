@@ -1,0 +1,31 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "C CricketClub" [ref=e5] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e7]: C
+          - generic [ref=e9]: CricketClub
+        - button "Account menu" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: C
+          - img [ref=e14]
+    - main [ref=e16]:
+      - generic [ref=e17]:
+        - link "Back to dashboard" [ref=e18] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e19]
+          - generic [ref=e21]: Back to dashboard
+        - heading "Create a club" [level=1] [ref=e22]
+        - paragraph [ref=e23]: You'll become the first admin. You can add seasons, teams, and members next.
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - generic [ref=e26]: Club name
+            - textbox "Riverside Cricket Club" [ref=e27]
+          - generic [ref=e28]:
+            - generic [ref=e29]: Contact email (optional)
+            - textbox "club@example.com" [ref=e30]
+          - button "Create club" [ref=e31] [cursor=pointer]:
+            - img [ref=e32]
+            - text: Create club
+  - button "Open Next.js Dev Tools" [ref=e38] [cursor=pointer]:
+    - img [ref=e39]

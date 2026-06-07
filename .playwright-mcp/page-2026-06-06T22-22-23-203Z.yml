@@ -1,0 +1,89 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "C CricketClub" [ref=e5] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e7]: C
+          - generic [ref=e9]: CricketClub
+        - button "Account menu" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: P
+          - img [ref=e14]
+    - main [ref=e16]:
+      - generic [ref=e17]:
+        - complementary [ref=e18]:
+          - generic [ref=e19]:
+            - link "All clubs" [ref=e20] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e21]
+              - text: All clubs
+            - generic [ref=e23]:
+              - generic [ref=e25]: P
+              - generic [ref=e26]:
+                - paragraph [ref=e27]: Picker CC
+                - paragraph [ref=e52]: admin
+            - navigation [ref=e28]:
+              - link "Overview" [ref=e29] [cursor=pointer]:
+                - /url: /club/c1de2342-a1f5-4279-b395-50c6aef03c54
+                - img [ref=e30]
+                - text: Overview
+              - link "Members" [ref=e53] [cursor=pointer]:
+                - /url: /club/c1de2342-a1f5-4279-b395-50c6aef03c54/members
+                - img [ref=e54]
+                - text: Members
+              - link "Seasons & Teams" [ref=e35] [cursor=pointer]:
+                - /url: /club/c1de2342-a1f5-4279-b395-50c6aef03c54/teams
+                - img [ref=e36]
+                - text: Seasons & Teams
+              - link "Expenses" [ref=e59] [cursor=pointer]:
+                - /url: /club/c1de2342-a1f5-4279-b395-50c6aef03c54/expenses
+                - img [ref=e60]
+                - text: Expenses
+              - link "Payments" [ref=e63] [cursor=pointer]:
+                - /url: /club/c1de2342-a1f5-4279-b395-50c6aef03c54/payments
+                - img [ref=e64]
+                - text: Payments
+        - generic [ref=e39]:
+          - generic [ref=e67]:
+            - link "Teams" [ref=e68] [cursor=pointer]:
+              - /url: /club/c1de2342-a1f5-4279-b395-50c6aef03c54/teams
+              - img [ref=e69]
+              - generic [ref=e71]: Teams
+            - generic [ref=e72]:
+              - heading "1st XI" [level=1] [ref=e73]
+              - paragraph [ref=e74]: "2026"
+          - navigation [ref=e76]:
+            - button "Roster" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - text: Roster
+            - button "Games" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - text: Games
+            - button "Team expenses" [active] [ref=e86] [cursor=pointer]:
+              - img [ref=e87]
+              - text: Team expenses
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - heading "Team expenses" [level=2] [ref=e92]
+              - generic [ref=e93]:
+                - generic [ref=e94]: $80.00
+                - button "Add expense" [ref=e95] [cursor=pointer]:
+                  - img [ref=e96]
+                  - text: Add expense
+            - table [ref=e98]:
+              - rowgroup [ref=e99]:
+                - row "Expense Date Amount" [ref=e100]:
+                  - columnheader "Expense" [ref=e101]
+                  - columnheader "Date" [ref=e102]
+                  - columnheader "Amount" [ref=e103]
+              - rowgroup [ref=e104]:
+                - row "Ground hire Ground booking Sat, Jun 6, 2026 $80.00" [ref=e105]:
+                  - cell "Ground hire Ground booking" [ref=e106]:
+                    - generic [ref=e107]:
+                      - generic [ref=e108]: Ground hire
+                      - generic [ref=e109]: Ground booking
+                  - cell "Sat, Jun 6, 2026" [ref=e110]
+                  - cell "$80.00" [ref=e111]
+  - button "Open Next.js Dev Tools" [ref=e47] [cursor=pointer]:
+    - img [ref=e48]
+  - alert [ref=e51]: 1st XI

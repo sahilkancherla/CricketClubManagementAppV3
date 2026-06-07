@@ -1,0 +1,163 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "C CricketClub" [ref=e5] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e7]: C
+          - generic [ref=e9]: CricketClub
+        - button "Account menu" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: B
+          - img [ref=e14]
+    - main [ref=e16]:
+      - generic [ref=e17]:
+        - complementary [ref=e18]:
+          - generic [ref=e19]:
+            - link "All clubs" [ref=e20] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e21]
+              - text: All clubs
+            - generic [ref=e23]:
+              - generic [ref=e25]: B
+              - generic [ref=e26]:
+                - paragraph [ref=e27]: Browser CC
+                - paragraph [ref=e51]: admin
+            - navigation [ref=e28]:
+              - link "Overview" [ref=e29] [cursor=pointer]:
+                - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9
+                - img [ref=e30]
+                - text: Overview
+              - link "Members" [ref=e52] [cursor=pointer]:
+                - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/members
+                - img [ref=e53]
+                - text: Members
+              - link "Seasons & Teams" [ref=e35] [cursor=pointer]:
+                - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/teams
+                - img [ref=e36]
+                - text: Seasons & Teams
+              - link "Expenses" [ref=e58] [cursor=pointer]:
+                - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/expenses
+                - img [ref=e59]
+                - text: Expenses
+              - link "Payments" [ref=e62] [cursor=pointer]:
+                - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/payments
+                - img [ref=e63]
+                - text: Payments
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - link "Back to members" [ref=e187] [cursor=pointer]:
+              - /url: /club/493f0fc5-b1ea-4e30-bf04-66b362402fb9/members
+              - img [ref=e188]
+              - generic [ref=e190]: Back to members
+            - generic [ref=e191]:
+              - generic [ref=e193]: R
+              - generic [ref=e195]:
+                - heading "Ravi" [level=1] [ref=e196]
+                - generic [ref=e197]:
+                  - img [ref=e198]
+                  - text: Off-app
+          - generic [ref=e201]:
+            - generic [ref=e202]:
+              - generic [ref=e203]:
+                - img [ref=e204]
+                - generic [ref=e207]: Outstanding
+              - generic [ref=e208]: $0.00
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - img [ref=e211]
+                - generic [ref=e214]: Paid
+              - generic [ref=e215]: $0.00
+            - generic [ref=e216]:
+              - generic [ref=e217]:
+                - img [ref=e218]
+                - generic [ref=e224]: Teams
+              - generic [ref=e225]: "0"
+            - generic [ref=e226]:
+              - generic [ref=e227]:
+                - img [ref=e228]
+                - generic [ref=e231]: Expenses logged
+              - generic [ref=e232]: $0.00
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - img [ref=e236]
+              - heading "Profile & details" [level=2] [ref=e239]
+            - generic [ref=e241]:
+              - generic [ref=e242]:
+                - generic [ref=e243]:
+                  - generic [ref=e244]: First name
+                  - textbox [ref=e245]: Ravi
+                - generic [ref=e246]:
+                  - generic [ref=e247]: Last name
+                  - textbox [ref=e248]
+                - generic [ref=e249]:
+                  - generic [ref=e250]: Email
+                  - textbox "—" [ref=e251]
+                - generic [ref=e252]:
+                  - generic [ref=e253]: Phone
+                  - textbox "—" [ref=e254]
+                - generic [ref=e255]:
+                  - generic [ref=e256]: PayPal email
+                  - textbox "—" [ref=e257]
+                - generic [ref=e258]:
+                  - generic [ref=e259]: Join date
+                  - textbox [ref=e260]: 2026-06-06
+              - generic [ref=e261]:
+                - generic [ref=e262]: Roles
+                - generic [ref=e263]:
+                  - button "+ admin" [ref=e264] [cursor=pointer]
+                  - button "+ captain" [ref=e265] [cursor=pointer]
+                  - button "✓ player" [pressed] [ref=e266] [cursor=pointer]
+              - generic [ref=e268]:
+                - generic [ref=e269]: Status
+                - combobox [ref=e270]:
+                  - option "Active" [selected]
+                  - option "Inactive"
+              - generic [ref=e271]:
+                - generic [ref=e272]:
+                  - generic [ref=e273]: Player type
+                  - combobox [ref=e274]:
+                    - option "—" [selected]
+                    - option "Batter"
+                    - option "Bowler"
+                    - option "All-rounder"
+                - generic [ref=e275]:
+                  - generic [ref=e276]: Batting hand
+                  - combobox [ref=e277]:
+                    - option "—" [selected]
+                    - option "Left-handed"
+                    - option "Right-handed"
+                - generic [ref=e278]:
+                  - generic [ref=e279]: Bowling type
+                  - combobox [ref=e280]:
+                    - option "—" [selected]
+                    - option "Off-spin"
+                    - option "Leg-spin"
+                    - option "Pace"
+              - generic [ref=e281]:
+                - generic [ref=e282]: Notes (optional)
+                - textbox "Internal notes about this member…" [ref=e283]
+              - button "Save changes" [ref=e285] [cursor=pointer]
+          - generic [ref=e286]:
+            - generic [ref=e287]:
+              - img [ref=e289]
+              - heading "Payments" [level=2] [ref=e292]
+            - paragraph [ref=e294]: No payments assigned to this member.
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - img [ref=e298]
+              - heading "Expenses logged" [level=2] [ref=e301]
+            - paragraph [ref=e303]: This member hasn't logged any expenses.
+          - generic [ref=e304]:
+            - generic [ref=e305]:
+              - img [ref=e307]
+              - heading "Teams & selections" [level=2] [ref=e312]
+            - generic [ref=e314]:
+              - generic [ref=e315]:
+                - generic [ref=e316]: Teams
+                - paragraph [ref=e317]: Not on any team.
+              - generic [ref=e318]:
+                - generic [ref=e319]: Recent selections
+                - paragraph [ref=e320]: Not selected for any games yet.
+  - button "Open Next.js Dev Tools" [ref=e47] [cursor=pointer]:
+    - img [ref=e48]
+  - alert [ref=e120]
